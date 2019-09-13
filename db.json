@@ -1,0 +1,87 @@
+{
+"navigations" : [
+  {
+    "name": "Home",
+    "url": "/",
+    "params": [],
+    "pages": []
+  },
+  {
+    "name": "About Us",
+    "url": "#",
+    "params": [],
+    "pages": [
+      {
+        "name": "Products",
+        "url": "/products",
+        "params": [
+          {
+            "enable": "yes"
+          }
+        ],
+        "pages": []
+      },
+      {
+        "name": "Team",
+        "url": "#",
+        "params": [],
+        "pages": [
+          {
+            "name": "Management",
+            "url": "/management",
+            "params": [],
+            "pages": []
+          },
+          {
+            "name": "Share Holders",
+            "url": "/share-holders",
+            "params": [
+              {
+                "with-staff": "no"
+              }
+            ],
+            "pages": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Packages",
+    "url": "#",
+    "params": [],
+    "pages": [
+      {
+        "name": "Premium",
+        "url": "/package",
+        "params": [
+          {
+            "type": "premium"
+          }
+        ],
+        "pages": []
+      },
+      {
+        "name": "Classy",
+        "url": "/package",
+        "params": [
+          {
+            "type": "classy"
+          }
+        ],
+        "pages": []
+      },
+      {
+        "name": "Freemium",
+        "url": "/package",
+        "params": [
+          {
+            "type": "fremium"
+          }
+        ],
+        "pages": []
+      }
+    ]
+  }
+]
+}
